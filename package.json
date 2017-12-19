@@ -1,14 +1,14 @@
 {
-  "name": "moodlemobile",
-  "version": "3.4.0",
-  "description": "The official app for Moodle.",
+  "name": "mubmobile",
+  "version": "1.0.0",
+  "description": "The official app for mubmobile.",
   "author": {
-    "name": "Moodle Pty Ltd.",
-    "email": "mobile@moodle.com"
+    "name": "Mub Pty Ltd.",
+    "email": "mubapp@moodle.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/moodlehq/moodlemobile2.git"
+    "url": " "
   },
   "license": "Apache-2.0",
   "licenses": [
@@ -72,8 +72,8 @@
   },
   "main": "www/electron.js",
   "build": {
-    "appId": "com.moodle.moodledesktop",
-    "productName": "Moodle Desktop",
+    "appId": "com.mub.mubdesktop",
+    "productName": "mub Desktop",
     "files": [
       "!desktop",
       "!**/e2e",
@@ -88,7 +88,7 @@
     },
     "protocols": [
       {
-        "name": "Moodle Mobile URL",
+        "name": "Mub Mobile URL",
         "schemes": [
           "moodlemobile"
         ],
